@@ -34,3 +34,24 @@ Note: The last line must have 0 spaces in it.
 ### Explanation
 
 The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of *n*.
+
+
+SOLUTION
+
+public class JavaStarPattern {
+ 
+    public static void main(String[] args) {
+        int val;
+         System.out.println("Enter Val"+val);
+        for (int i = 1; i <= val; i++) {
+            for (int j = 1; j <= val - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i; k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+    }
+ 
+}
