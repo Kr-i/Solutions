@@ -38,7 +38,7 @@ The staircase is right-aligned, composed of # symbols and spaces, and has a heig
 
 SOLUTION
 
-public class JavaStarPattern {
+
  
     public static void main(String[] args) {
         int val;
